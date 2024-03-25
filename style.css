@@ -30,3 +30,17 @@ section, .Profile{
         align-items: center;
     }
 }
+
+section{
+    .Project-Container{
+        display: grid;
+        padding-right: 5%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 2fr 2fr;
+        margin: 1%;
+        gap: 0.5rem;
+        margin-left: 18.5%;
+        background-color: whitesmoke;
+    }
+
+}
