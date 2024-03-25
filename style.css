@@ -48,7 +48,7 @@ section{
         grid-template-rows: 2fr 2fr 2fr;
         margin: 1%;
         gap: 0.7rem;
-        margin-left: 18.5%;
+        margin-left: 10%;
         
         /* Card Styling */
         .Project-Card{
