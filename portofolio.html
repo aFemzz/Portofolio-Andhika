@@ -1,28 +1,61 @@
-<!-- test -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navbar Section -->
     <header>
-        
+        <nav>
+            <div class="Navbar" id="Navbar-Section">
+                <a href="#Profile-Section">Home</a>
+                <a href="#Projects-Section">Projects</a>
+                <a href="#Footer-Section">Contact</a>
+            </div>
+        </nav>
     </header>
 
-    <section>
-
+    <!-- Profile Section -->
+    <section class="Profile" id="Profile-Section">
+        <div class="Profile-Container">
+            <img src="./assets/Headshot.png">
+            <p class="My-Description">Hello I'm Andhika Favian Maulana, a passionate web developer. Welcome to my portofolio!</p>
+        </div>
     </section>
     
+    <!-- Project Section -->
     <section>
-        
+        <article class="Project-Container" id="Projects-Section">
+            <card class="Project-Card" id="project-1">            
+                <h2 class="Project-Subtitle-1">Project 1</h2>
+                <p>E-Braille is a device that enables visually impaired people to read books by  the Braille dot alphabet display using mechanical pins that will 
+                   comes up according to the lines of the book that the users read.</p>
+            </card>
+
+            <card class="Project-Card" id="project-2">
+                <h2 class="Project-Subtitle-2">Project 2</h2>
+                <p>Smart pill dispenser is a device to help the users to keep their health in check by reminding them to 
+                    take their medication ( i.e pills ) on time. </p>
+            </card>
+
+            <card class="Project-Card" id="project-3">
+                <h2 class="Project-Subtitle-3">Project 3</h2>
+                <p>This device replicates the human eye's function by adjusting blinds based on the light intensity detected by sensors. Initially, the window could only be manually operated using a button or remote. However, we enhanced it by integrating 
+                    ESP32 devices to collect and transmit data to Node-RED. Another ESP32 embedded within the blind uses this data to autonomously control the blinds, enabling automatic adjustments based on light intensity.</p>
+            </card>
+
+        </article>
     </section>
 
-    <footer>
-
-
+    <!-- Footer Section -->
+    <footer class="footer" id="Footer-Section">
+        <p>&copy Andhika Favian Maulana</p>
+        <a href="https://www.linkedin.com/in/andhika-favian-maulana/">Linked In</a> |
+        <a href="https://github.com/aFemzz">GitHub</a> |
+        <a href="https://twitter.com/">Twitter</a> 
     </footer>
-
 </body>
 </html>
